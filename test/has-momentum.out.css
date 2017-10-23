@@ -1,0 +1,19 @@
+body {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+div {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+p {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
