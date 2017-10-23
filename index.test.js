@@ -1,8 +1,8 @@
-var postcss = require('postcss');
+const fs      = require('fs');
+const postcss = require('postcss');
+const plugin  = require('./');
 
-var plugin = require('./');
-
-function run(input, output, opts) {
+function hasMomentumScroll(input, output, opts) {
     return postcss([ plugin(opts) ]).process(input)
         .then(result => {
             expect(result.css).toEqual(output);
@@ -10,10 +10,10 @@ function run(input, output, opts) {
         });
 }
 
-/* Write tests here
+it('if has momentum scroll, do nothing', () => {
 
-it('does something', () => {
-    return run('a{ }', 'a{ }', { });
+    let input  = fs.readFileSync('./test/has-momentum.in.css', 'utf8');
+    let output = fs.readFileSync('./test/has-momentum.out.css', 'utf8');
+
+    return hasMomentumScroll(input, output, {});
 });
-
-*/
