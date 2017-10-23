@@ -1,6 +1,6 @@
-const postcss = require('postcss');
+var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-momentum-scrolling', (opts) => {
+module.exports = postcss.plugin('postcss-momentum-scrolling', function (opts) {
 
     opts = opts || {
         short: false // true
@@ -8,14 +8,18 @@ module.exports = postcss.plugin('postcss-momentum-scrolling', (opts) => {
 
     return function (root) {
 
-        let selectors = [];
+        var selectors = [],
+            hasMomentumScroll = false,
+            hasOverflow = false,
+            selectorsUniq = null,
+            momentumRule = null;
 
-        root.walkRules(rule => {
+        root.walkRules(function (rule) {
 
-            let hasMomentumScroll = false,
-                hasOverflow = false;
+            hasMomentumScroll = false;
+            hasOverflow = false;
 
-            rule.walkDecls(decl => {
+            rule.walkDecls(function (decl) {
 
                 if (!hasMomentumScroll &&
                     decl.prop === '-webkit-overflow-scrolling' &&
@@ -48,11 +52,11 @@ module.exports = postcss.plugin('postcss-momentum-scrolling', (opts) => {
 
         if (selectors.length && opts.short) {
 
-            let selectorsUniq = selectors.filter((selector, index, arr) => {
+            selectorsUniq = selectors.filter(function (selector, index, arr) {
                 return arr.indexOf(selector) === index;
             });
 
-            let momentumRule = postcss.rule({
+            momentumRule = postcss.rule({
                 selector: selectorsUniq.join(',')
             });
 
