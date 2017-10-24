@@ -3,3 +3,6 @@ cache: yarn
 node_js:
   - "node"
   - "lts/*"
+os:
+  - linux
+  - osx
