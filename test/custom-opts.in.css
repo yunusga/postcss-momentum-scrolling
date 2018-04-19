@@ -12,9 +12,9 @@ main {
 }
 
 aside {
-    overflow-y: auto;
+    overflow: auto;
 }
 
 footer {
-    overflow-x: inherit;
+    overflow: inherit;
 }

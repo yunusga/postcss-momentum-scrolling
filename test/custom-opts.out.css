@@ -10,15 +10,13 @@ header {
 
 main {
     overflow: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 aside {
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: auto;
 }
 
 footer {
-    overflow-x: inherit;
+    overflow: inherit;
     -webkit-overflow-scrolling: touch;
 }
