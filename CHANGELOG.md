@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.3.4
+
+- removed "short" functionality and added new options
+- added tests for new functionality
+- update dependencies
+
 ## 0.1.3
 
 - Add Linux and OSX for Travis CI
