@@ -1,101 +1,37 @@
-# PostCSS Momentum Scrolling [![Build Status][ci-img]][ci]
-
-[PostCSS] plugin add 'momentum' style scrolling behavior (`-webkit-overflow-scrolling: touch`) for elements with overflow (scroll, auto) on iOS.
+# PostCSS Momentum Scrolling
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/yunusga/postcss-momentum-scrolling.svg
 [ci]:      https://travis-ci.org/yunusga/postcss-momentum-scrolling
 
-## Usage
+[![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling) [![Build Status][ci-img]][ci]
+[![npm](https://img.shields.io/npm/dt/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)
+
+[PostCSS] plugin add **momentum** style scrolling behavior (`-webkit-overflow-scrolling: touch`) for elements with overflow (scroll, auto) on iOS.
+
+## Getting Started
+
+First thing's first, install the module:
+
+```
+npm install postcss-momentum-scrolling --save-dev
+```
+
+## 🍳 Usage
 
 ```js
 postcss([
-    require('postcss-momentum-scrolling')({
-        short: false // disable short mode (default)
-    })
+    require('postcss-momentum-scrolling')([
+        // default options
+        'hidden',
+        'scroll',
+        'auto',
+        'inherit'
+    ])
 ])
 ```
 
 See [PostCSS] docs for examples for your environment.
 
-## Options
-
-### `short:false`
-
-#### Before `short:false`
-
-```css
-body {
-    overflow: scroll;
-}
-
-div {
-    overflow: auto;
-}
-
-p {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-```
-
-#### After `short:false`
-
-```css
-body {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
-div {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-p {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-```
-
-### `short:true`
-
-Plugin brings all the selectors with overflow in one rule
-
-#### Before `short:true`
-
-```css
-body {
-    overflow: scroll;
-}
-
-div {
-    overflow: auto;
-}
-
-p {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-```
-
-#### After `short:true`
-
-```css
-body {
-    overflow: scroll;
-}
-
-div {
-    overflow: auto;
-}
-
-p {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
-body, div {
-    -webkit-overflow-scrolling: touch;
-}
-```
+## 🍰 Options
+Array of `overflow` values at which you want to add momentum style scrolling behavior. Default `['hidden', 'scroll', 'auto', 'inherit']`
