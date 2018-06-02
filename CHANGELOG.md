@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.4.5
+
+ - Updated keywords
+ - Change test script command in package.json
+ - Update all dependencies
+
 ## 1.3.4
 
 - removed "short" functionality and added new options
