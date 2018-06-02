@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/yunusga/postcss-momentum-scrolling",
   "dependencies": {
-    "postcss": "^6.0.21"
+    "postcss": "^6.0.22"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-postcss": "^2.0.2",
-    "jest": "^22.4.3"
+    "jest": "^23.1.0"
   },
   "scripts": {
     "test": "jest && eslint ./index.js"
