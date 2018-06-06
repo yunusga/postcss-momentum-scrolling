@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.4.6
+
+ - Improve docs
+
 ## 1.4.5
 
  - Updated keywords
