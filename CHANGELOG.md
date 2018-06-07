@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.4.7
+
+ - Fix demo images for README
+
 ## 1.4.6
 
  - Improve docs
