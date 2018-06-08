@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.4.8
+
+ - Update README, links to examples
+
 ## 1.4.7
 
  - Fix demo images for README
