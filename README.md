@@ -3,7 +3,7 @@
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/yunusga/postcss-momentum-scrolling.svg
 [ci]:      https://travis-ci.org/yunusga/postcss-momentum-scrolling
-[MIT]: https://github.com/yunusga/postcss-momentum-scrolling/blob/master/LICENSE
+[MIT]:     https://github.com/yunusga/postcss-momentum-scrolling/blob/master/LICENSE
 
 [![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling) [![Build Status][ci-img]][ci]
 [![npm](https://img.shields.io/npm/dt/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)
@@ -31,6 +31,11 @@ Before|After
 ------|------
 ![behavior without -webkit-overflow-scrolling: touch](https://yunusga.github.io/img/nomoment.gif) | ![behavior with -webkit-overflow-scrolling: touch](https://yunusga.github.io/img/withmoment.gif)
 *robotic scroll*|*smooth scroll with mоmentum*
+
+### 🔗 Links:
+ - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
+ - [Momentum Scrolling on iOS Overflow Elements](https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/)
+ - [Six things I learnt about iOS Safari's rubber band scrolling](http://blog.christoffer.online/2015-06-10-six-things-i-learnt-about-ios-rubberband-overflow-scrolling/)
 
 ## Getting Started
 
