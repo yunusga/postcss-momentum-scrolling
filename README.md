@@ -1,9 +1,9 @@
 # PostCSS Momentum Scrolling
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/yunusga/postcss-momentum-scrolling.svg
-[ci]:      https://travis-ci.org/yunusga/postcss-momentum-scrolling
-[MIT]:     https://github.com/yunusga/postcss-momentum-scrolling/blob/master/LICENSE
+[ci-img]:  https://travis-ci.org/solversgroup/postcss-momentum-scrolling.svg
+[ci]:      https://travis-ci.org/solversgroup/postcss-momentum-scrolling
+[MIT]:     https://github.com/solversgroup/postcss-momentum-scrolling/blob/master/LICENSE
 
 [![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling) [![Build Status][ci-img]][ci]
 [![npm](https://img.shields.io/npm/dt/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)

@@ -14,11 +14,11 @@
   ],
   "author": "yunusga <yunusga@yandex.ru>",
   "license": "MIT",
-  "repository": "yunusga/postcss-momentum-scrolling",
+  "repository": "solversgroup/postcss-momentum-scrolling",
   "bugs": {
-    "url": "https://github.com/yunusga/postcss-momentum-scrolling/issues"
+    "url": "https://github.com/solversgroup/postcss-momentum-scrolling/issues"
   },
-  "homepage": "https://github.com/yunusga/postcss-momentum-scrolling",
+  "homepage": "https://github.com/solversgroup/postcss-momentum-scrolling",
   "dependencies": {
     "postcss": "^6.0.22"
   },
