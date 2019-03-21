@@ -26,7 +26,7 @@ module.exports = postcss.plugin('postcss-momentum-scrolling', function (opts) {
         }
 
         if (!hasOverflow &&
-          decl.prop.match(/^overflow/g) &&
+          decl.prop.match(/^overflow(-[xy])?/g) &&
           opts.indexOf(decl.value) !== -1
         ) {
           hasOverflow = true
