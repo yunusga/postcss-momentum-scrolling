@@ -2,6 +2,16 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.6.12
+
+ - Add overflow-x and overflow-y support
+ - Examples for plugin custom options
+
+## 1.5.10
+
+ - Update dependencies
+ - Fix eslint errors/conflicts
+
 ## 1.4.8
 
  - Update README, links to examples
