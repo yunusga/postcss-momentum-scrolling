@@ -64,4 +64,47 @@ See [PostCSS] docs for examples for your environment.
 ## 🍰 Options
 Array of `overflow` property values at which you want to add momentum style scrolling behavior. Default `['hidden', 'scroll', 'auto', 'inherit']` (use only `['scroll']` for minimize css size).
 
+### Custom options example
+
+```js
+postcss([
+    require('postcss-momentum-scrolling')([
+        'hidden',
+        'inherit'
+    ])
+])
+```
+
+```css
+/* Before */
+header {
+    overflow: hidden;
+}
+
+main {
+    overflow: scroll;
+}
+
+footer {
+    overflow: inherit;
+}
+```
+
+```css
+/* After */
+header {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+main {
+    overflow: scroll;
+}
+
+footer {
+    overflow: inherit;
+    -webkit-overflow-scrolling: touch;
+}
+```
+
 License [MIT]

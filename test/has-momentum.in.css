@@ -15,6 +15,11 @@ aside {
     overflow-y: auto;
 }
 
+article {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 footer {
     overflow-x: inherit;
 }
