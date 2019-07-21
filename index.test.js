@@ -1,5 +1,6 @@
 var fs = require('fs')
 var postcss = require('postcss')
+
 var plugin = require('./')
 
 function testEqualResult (input, output, opts) {
