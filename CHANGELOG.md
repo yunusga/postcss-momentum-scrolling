@@ -2,33 +2,38 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.7.13
+
+- Fix potential security vulnerabilities
+- ESlint fix for tests script
+
 ## 1.6.12
 
- - Add overflow-x and overflow-y support
- - Examples for plugin custom options
+- Add overflow-x and overflow-y support
+- Examples for plugin custom options
 
 ## 1.5.10
 
- - Update dependencies
- - Fix eslint errors/conflicts
+- Update dependencies
+- Fix eslint errors/conflicts
 
 ## 1.4.8
 
- - Update README, links to examples
+- Update README, links to examples
 
 ## 1.4.7
 
- - Fix demo images for README
+- Fix demo images for README
 
 ## 1.4.6
 
- - Improve docs
+- Improve docs
 
 ## 1.4.5
 
- - Updated keywords
- - Change test script command in package.json
- - Update all dependencies
+- Updated keywords
+- Change test script command in package.json
+- Update all dependencies
 
 ## 1.3.4
 
