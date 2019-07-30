@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.8.15
+
+- Update dependencies
+- Add .git to .npmignore
+- ESLint fixes tests script
+
 ## 1.7.13
 
 - Fix potential security vulnerabilities
