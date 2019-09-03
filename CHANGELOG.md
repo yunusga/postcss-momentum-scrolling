@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.9.15
+
+- fix dependencies potential security vulnerability
+
 ## 1.8.15
 
 - Update dependencies
