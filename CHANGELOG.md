@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.1.3
+
+- Update README.md
+- Add specific node LTS versions for Travis CI
+- Refactor plugin code
+- fix dependencies security vulnerabilities
+- Update dependencies
+
 ## 1.9.15
 
 - fix dependencies potential security vulnerability
