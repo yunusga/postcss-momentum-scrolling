@@ -1,7 +1,7 @@
 {
   "name": "postcss-momentum-scrolling",
   "version": "1.9.15",
-  "description": "PostCSS plugin add 'momentum' style scrolling behavior (-webkit-overflow-scrolling: touch) for elements with overflow (scroll, auto) on iOS",
+  "description": "PostCSS plugin for adding 'momentum' style scrolling behavior (-webkit-overflow-scrolling: touch) for elements with overflow (scroll, auto) on iOS",
   "keywords": [
     "postcss",
     "css",
@@ -39,13 +39,13 @@
     "jest": "^24.9.0"
   },
   "scripts": {
-    "test": "jest && eslint *.js"
+    "test": "jest && eslint ."
   },
   "eslintConfig": {
-    "extends": "eslint-config-postcss",
-    "env": {
-      "jest": true
-    }
+    "extends": "eslint-config-postcss"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   },
   "jest": {
     "testEnvironment": "node"
