@@ -1,6 +1,6 @@
-var postcss = require('postcss')
+let postcss = require('postcss')
 
-module.exports = postcss.plugin('postcss-momentum-scrolling', function (opts) {
+module.exports = postcss.plugin('postcss-momentum-scrolling', opts => {
   opts = opts || [
     'hidden',
     'scroll',
@@ -9,36 +9,21 @@ module.exports = postcss.plugin('postcss-momentum-scrolling', function (opts) {
   ]
 
   return function (root) {
-    var hasMomentumScroll = false
+    root.walkRules(rule => {
+      rule.walkDecls(/^overflow-?/, decl => {
+        if (opts.includes(decl.value)) {
+          let hasTouch = rule.some(i => {
+            return i.prop === '-webkit-overflow-scrolling'
+          })
 
-    var hasOverflow = false
-
-    root.walkRules(function (rule) {
-      hasMomentumScroll = false
-      hasOverflow = false
-
-      rule.walkDecls(function (decl) {
-        if (!hasMomentumScroll &&
-          decl.prop === '-webkit-overflow-scrolling' &&
-          decl.value === 'touch'
-        ) {
-          hasMomentumScroll = true
-        }
-
-        if (!hasOverflow &&
-          decl.prop.match(/^overflow(-[xy])?/g) &&
-          opts.indexOf(decl.value) !== -1
-        ) {
-          hasOverflow = true
+          if (!hasTouch) {
+            rule.append({
+              prop: '-webkit-overflow-scrolling',
+              value: 'touch'
+            })
+          }
         }
       })
-
-      if (!hasMomentumScroll && hasOverflow) {
-        rule.append({
-          prop: '-webkit-overflow-scrolling',
-          value: 'touch'
-        })
-      }
     })
   }
 })
