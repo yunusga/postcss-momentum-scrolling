@@ -1,8 +1,10 @@
 language: node_js
 cache: yarn
 node_js:
-  - "node"
-  - "lts/*"
+  - node
+  - "12"
+  - "10"
+  - "8"
 os:
   - linux
   - osx
