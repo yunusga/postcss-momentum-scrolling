@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.5] 2019-10-27
+
+### Bumps
+  - eslint from 6.7.0 to 6.7.1
+  - eslint-plugin-jest from 23.0.4 to 23.0.5
+
 ## 2.1.3
 
 - Update README.md
