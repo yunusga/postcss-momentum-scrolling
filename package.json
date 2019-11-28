@@ -23,7 +23,7 @@
     "postcss": "^7.0.23"
   },
   "devDependencies": {
-    "@logux/eslint-config": "34.0.1",
+    "@logux/eslint-config": "35.0.0",
     "eslint": "6.7.1",
     "eslint-config-postcss": "3.0.7",
     "eslint-config-standard": "14.1.0",
