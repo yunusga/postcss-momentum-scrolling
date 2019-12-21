@@ -2,10 +2,12 @@
 .npmignore
 .gitignore
 .editorconfig
+.vscode
 
 node_modules/
 npm-debug.log
 yarn.lock
 
+test
 *.test.js
 .travis.yml
