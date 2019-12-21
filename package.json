@@ -1,6 +1,6 @@
 {
   "name": "postcss-momentum-scrolling",
-  "version": "2.1.6",
+  "version": "2.2.8",
   "description": "PostCSS plugin for adding 'momentum' style scrolling behavior (-webkit-overflow-scrolling: touch) for elements with overflow (scroll, auto) on iOS",
   "keywords": [
     "postcss",
