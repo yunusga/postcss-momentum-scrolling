@@ -2,17 +2,38 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.8] 2019-12-21
+
+### Fixed
+
+ - Set default options if passed options are not an `Array`
+
+### Added
+
+ - Test if passed options are not an `Array`
+ - `test` and `.vscode` directories to .npmignore
+ - `.vscode` directory to .gitignore
+
+### Bumps
+
+ - postcss from `7.0.23` to `7.0.25`
+ - @logux/eslint-config from `35.0.0` to `35.0.1`
+ - eslint from `6.7.1` to `6.8.0`
+ - eslint-plugin-import from `2.18.2` to `2.19.1`
+ - eslint-plugin-jest from `23.0.5` to `23.1.1`
+ - eslint-plugin-unicorn from `13.0.0` to `14.0.1`
+
 ## [2.1.6] 2019-10-29
 
 ### Bumps
-  - @logux/eslint-config from 34.0.1 to 35.0.0
+  - @logux/eslint-config from `34.0.1` to `35.0.0`
 
 ## [2.1.5] 2019-10-27
 
 ### Bumps
 
-  - eslint from 6.7.0 to 6.7.1
-  - eslint-plugin-jest from 23.0.4 to 23.0.5
+  - eslint from `6.7.0` to `6.7.1`
+  - eslint-plugin-jest from `23.0.4` to `23.0.5`
 
 ## 2.1.3
 
