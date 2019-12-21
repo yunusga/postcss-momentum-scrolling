@@ -27,3 +27,10 @@ it('custom options (hidden, inherit)', () => {
     'inherit'
   ])
 })
+
+it('if options is not array', () => {
+  let input = fs.readFileSync('./test/has-momentum.in.css', 'utf8')
+  let output = fs.readFileSync('./test/has-momentum.out.css', 'utf8')
+
+  return testEqualResult(input, output, 'postcss')
+})
