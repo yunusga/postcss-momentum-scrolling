@@ -1,12 +1,14 @@
 let postcss = require('postcss')
 
 module.exports = postcss.plugin('postcss-momentum-scrolling', opts => {
-  opts = opts || [
+  let defaults = [
     'hidden',
     'scroll',
     'auto',
     'inherit'
   ]
+
+  opts = Array.isArray(opts) ? opts : defaults
 
   return function (root) {
     root.walkRules(rule => {

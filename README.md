@@ -78,7 +78,9 @@ and set this plugin in settings.
 
 ## 🍰 Options
 
-Array of `overflow` property values at which you want to add momentum style scrolling behavior. Default `['hidden', 'scroll', 'auto', 'inherit']` (use only `['scroll']` for minimize css size).
+> If the passed options are not an `Array`, then the default options will be set.
+
+`Array` of `overflow` property values at which you want to add momentum style scrolling behavior. Default `['hidden', 'scroll', 'auto', 'inherit']` (use only `['scroll']` for minimize css size).
 
 ### Custom options example
 
