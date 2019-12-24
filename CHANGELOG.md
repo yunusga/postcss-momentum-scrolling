@@ -2,6 +2,13 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.9] 2019-12-24
+
+### Bumps
+
+ - @logux/eslint-config `35.0.1` → `35.0.2`
+ - eslint-plugin-unicorn `^14.0.1` → `^15.0.1`
+
 ## [2.2.8] 2019-12-21
 
 ### Fixed
