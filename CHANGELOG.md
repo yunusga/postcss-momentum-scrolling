@@ -2,6 +2,15 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.10] 2020-01-28
+
+### Bumps
+
+ - postcss `^7.0.25` → `^7.0.26`
+ - @logux/eslint-config `35.0.2` → `35.0.3`
+ - eslint-plugin-node `10.0.0` → `11.0.0`
+ - jest `^24.9.0` → `^25.1.0`
+
 ## [2.2.9] 2019-12-24
 
 ### Bumps
