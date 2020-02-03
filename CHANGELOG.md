@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.12] 2020-02-03
+
+- Update dev dependencies
+- index.test.js eslint fix
+
 ## [2.3.10] 2020-01-28
 
 ### Bumps
