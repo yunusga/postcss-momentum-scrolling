@@ -1,11 +1,11 @@
 # PostCSS Momentum Scrolling
 
 [PostCSS]:          https://github.com/postcss/postcss
-[ci-img]:           https://travis-ci.org/solversgroup/postcss-momentum-scrolling.svg
-[ci]:               https://travis-ci.org/solversgroup/postcss-momentum-scrolling
-[MIT]:              https://github.com/solversgroup/postcss-momentum-scrolling/blob/master/LICENSE
+[ci-img]:           https://travis-ci.org/yunusga/postcss-momentum-scrolling.svg
+[ci]:               https://travis-ci.org/yunusga/postcss-momentum-scrolling
+[MIT]:              https://github.com/yunusga/postcss-momentum-scrolling/blob/master/LICENSE
 [official docs]:    https://github.com/postcss/postcss#usage
-[Releases history]: https://github.com/solversgroup/postcss-momentum-scrolling/blob/master/CHANGELOG.md
+[Releases history]: https://github.com/yunusga/postcss-momentum-scrolling/blob/master/CHANGELOG.md
 
 [![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling) [![Build Status][ci-img]][ci]
 [![npm](https://img.shields.io/npm/dt/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)
@@ -135,4 +135,4 @@ See [Releases history]
 
 ## Other PostCSS plugins
 
-- [`sort-media-queries`](https://github.com/solversgroup/postcss-sort-media-queries) - plugin for combine and sort CSS media queries with **mobile first** or **desktop first** methods
+- [`postcss-sort-media-queries`](https://github.com/yunusga/postcss-sort-media-queries) - plugin for combine and sort CSS media queries with **mobile first** or **desktop first** methods

@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.13] 2020-02-04
+
+- No reasons for update, just informations fixes
+
 ## [2.3.12] 2020-02-03
 
 - Update dev dependencies
