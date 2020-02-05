@@ -42,7 +42,7 @@
     "jest": "^25.1.0"
   },
   "scripts": {
-    "test": "jest && eslint ."
+    "test": "jest && eslint . --fix"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss"

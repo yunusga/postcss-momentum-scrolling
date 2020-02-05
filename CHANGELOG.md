@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.14] 2020-02-05
+
+- tech update, for travis ci
+
 ## [2.3.13] 2020-02-04
 
 - No reasons for update, just informations fixes
