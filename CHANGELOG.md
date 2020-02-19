@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.15] 2020-02-19
+
+- Update dependencies
+- Add `yarn.lock` file
+
 ## [2.3.14] 2020-02-05
 
 - tech update, for travis ci
