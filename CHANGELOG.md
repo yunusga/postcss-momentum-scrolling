@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.17] 2020-05-22
+
+- Update dev dependencies
+
 ## [2.5.17] 2020-04-15
 
 - Update dev dependencies
