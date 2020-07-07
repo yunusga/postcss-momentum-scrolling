@@ -2,7 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.7.17] 2020-05-22
+## [2.8.17] 2020-07-07
+
+- Update dependencies
+
+## [2.7.17] 2020-06-06
 
 - Update dependencies
 
