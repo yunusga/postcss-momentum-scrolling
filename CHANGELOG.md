@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.8.20] 2020-09-12
+
+- Update dependencies
+
 ## [2.8.19] 2020-07-17
 
 - fix potential security vulnerabilities
