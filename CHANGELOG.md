@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] 2020-10-07
+
+- PostCSS 8 support
+
 ## [2.8.20] 2020-09-12
 
 - Update dependencies

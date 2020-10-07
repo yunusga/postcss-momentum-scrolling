@@ -22,34 +22,56 @@
     "url": "https://github.com/yunusga/postcss-momentum-scrolling/issues"
   },
   "homepage": "https://github.com/yunusga/postcss-momentum-scrolling#postcss-momentum-scrolling",
-  "dependencies": {
-    "postcss": "^7.0.32"
-  },
-  "devDependencies": {
-    "@logux/eslint-config": "40.0.3",
-    "eslint": "7.6.0",
-    "eslint-config-standard": "14.1.1",
-    "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-jest": "23.20.0",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prefer-let": "^1.0.2",
-    "eslint-plugin-prettierx": "^0.14.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-security": "1.4.0",
-    "eslint-plugin-standard": "4.0.1",
-    "eslint-plugin-unicorn": "^21.0.0",
-    "jest": "^26.3.0"
-  },
   "scripts": {
-    "test": "jest && eslint . --fix"
-  },
-  "eslintConfig": {
-    "extends": "@logux/eslint-config"
+    "test": "jest-ci --coverage && eslint-ci ."
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-ci": "^1.0.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "husky": "^4.3.0",
+    "jest": "^26.5.2",
+    "jest-ci": "^0.1.1",
+    "jest-cli": "^26.5.2",
+    "lint-staged": "^10.4.0",
+    "postcss": "^8.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
+    "rules": {
+      "jest/expect-expect": "off"
+    }
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    }
   }
 }
