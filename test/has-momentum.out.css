@@ -28,4 +28,16 @@ footer {
   overflow-x: inherit;
   -webkit-overflow-scrolling: touch;
 }
+
+.skipped-no-overflow {
+  overflow-x: inherit;
+  overflow-y: inherit;
+  -webkit-overflow-scrolling: touch;
+}
+
+.skipped-with-overflow {
+  overflow-x: inherit;
+  overflow-y: inherit;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }

@@ -23,4 +23,15 @@ article {
 footer {
   overflow-x: inherit;
 }
+
+.skipped-no-overflow {
+  overflow-x: inherit;
+  overflow-y: inherit;
+}
+
+.skipped-with-overflow {
+  overflow-x: inherit;
+  overflow-y: inherit;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
