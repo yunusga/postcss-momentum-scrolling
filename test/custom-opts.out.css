@@ -1,22 +1,22 @@
 body {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 main {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 aside {
-    overflow: auto;
+  overflow: auto;
 }
 
 footer {
-    overflow: inherit;
-    -webkit-overflow-scrolling: touch;
+  overflow: inherit;
+  -webkit-overflow-scrolling: touch;
 }

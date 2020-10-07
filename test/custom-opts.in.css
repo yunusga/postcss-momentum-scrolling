@@ -1,20 +1,20 @@
 body {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 main {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 aside {
-    overflow: auto;
+  overflow: auto;
 }
 
 footer {
-    overflow: inherit;
+  overflow: inherit;
 }

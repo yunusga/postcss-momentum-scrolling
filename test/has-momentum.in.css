@@ -1,25 +1,26 @@
 body {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 main {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 aside {
-    overflow-y: auto;
+  overflow-y: auto;
 }
 
 article {
-    overflow-y: auto;
-    overflow-x: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 footer {
-    overflow-x: inherit;
+  overflow-x: inherit;
+}
 }

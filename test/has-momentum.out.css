@@ -1,30 +1,31 @@
 body {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 main {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 aside {
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 article {
-    overflow-y: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 footer {
-    overflow-x: inherit;
-    -webkit-overflow-scrolling: touch;
+  overflow-x: inherit;
+  -webkit-overflow-scrolling: touch;
+}
 }
