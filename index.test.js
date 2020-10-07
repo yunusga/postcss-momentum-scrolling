@@ -37,7 +37,7 @@ function testSkippedCounter(input, output, opts) {
         }
       })
 
-      expect(etalon).toEqual(counters)
+      expect(etalon).toMatchObject(counters)
       expect(result.warnings()).toHaveLength(0)
     })
 }
