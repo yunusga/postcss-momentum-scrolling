@@ -2,7 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [3.1.1] 2020-10-07
+## [3.1.2] 2020-10-08
+
+- Updated demo in README
+
+## [3.1.1] 2020-10-08
 
 - Optimization: skip rule if it is already processed
 

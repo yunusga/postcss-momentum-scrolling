@@ -31,10 +31,9 @@
 
 ## Live Example
 
-Before|After
-------|------
-![behavior without -webkit-overflow-scrolling: touch](https://yunusga.github.io/img/nomoment.gif) | ![behavior with -webkit-overflow-scrolling: touch](https://yunusga.github.io/img/withmoment.gif)
-*robotic scroll*|*smooth scroll with mоmentum*
+![With and without -webkit-overflow-scrolling: touch](https://yunusga.github.io/img/postcss-momentum-scrolling.gif)
+
+[Live demo](https://dev.solvers.group/momentum/), [YouTube demo](https://www.youtube.com/watch?v=mYLSv7Il-D0)
 
 ### 🔗 Links:
 
