@@ -12,8 +12,8 @@ function testEqualResult(input, output, opts) {
     })
 }
 
-function testSkippedCounter(input, output, opts) {
-  return postcss([plugin(opts)])
+function testSkippedCounter(input) {
+  return postcss([plugin()])
     .process(input, { from: undefined })
     .then(result => {
       let etalon = {
@@ -27,6 +27,7 @@ function testSkippedCounter(input, output, opts) {
 
       result.root.nodes.forEach(rule => {
         if (targets.includes(rule.selector)) {
+          // get all items with Symbol() in key
           let symbols = Object.getOwnPropertySymbols(rule);
 
           symbols.forEach(key => {
@@ -65,7 +66,6 @@ it('if options is not array', () => {
 
 it('skip if already processed', () => {
   let input = fs.readFileSync('./test/has-momentum.in.css', 'utf8')
-  let output = fs.readFileSync('./test/has-momentum.out.css', 'utf8')
 
-  return testSkippedCounter(input, output)
+  return testSkippedCounter(input)
 })

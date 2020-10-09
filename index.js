@@ -1,7 +1,7 @@
 module.exports = (opts = {}) => {
   let defaults = ['hidden', 'scroll', 'auto', 'inherit']
-  let skipped = Symbol('isSkipped')
-  let counter = Symbol('skippedCounter')
+  let skipped = Symbol('isSkipped') // skipped flag
+  let counter = Symbol('skippedCounter') // counter for test "isSkipped" optimization
 
   opts = Array.isArray(opts) ? opts : defaults
 
@@ -20,6 +20,7 @@ module.exports = (opts = {}) => {
             value: 'touch'
           })
         }
+
         rule[skipped] = true
         rule[counter]++
       }
