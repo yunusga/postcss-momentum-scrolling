@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.1.5] 2020-11-08
+
+- Update **postcss** `8.1.2 -> 8.1.6`
+- Update dev dependencies
+
 ## [3.1.4] 2020-10-19
 
 - Update **postcss** `8.1.0 -> 8.1.2`
