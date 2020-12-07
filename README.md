@@ -39,7 +39,7 @@
 
  - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
  - [Momentum Scrolling on iOS Overflow Elements](https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/)
- - [Six things I learnt about iOS Safari's rubber band scrolling](http://blog.christoffer.online/2015-06-10-six-things-i-learnt-about-ios-rubberband-overflow-scrolling/)
+ - [Six things I learnt about iOS Safari's rubber band scrolling](https://www.specialagentsqueaky.com/blog-post/ssy5i7qw/2015-06-10-six-things-i-learnt-about-ios-rubberband-overflow-scrolling/)
 
 ## Getting Started
 
