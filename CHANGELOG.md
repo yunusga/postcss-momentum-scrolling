@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.1.9] 2020-12-07
+
+- Сhange link to the article "Six things I learnt about iOS Safari's rubber band scrolling"
+
 ## [3.1.8] 2020-12-04
 
 - Update **postcss** to [postcss/releases/tag/8.1.14](https://github.com/postcss/postcss/releases/tag/8.1.14)
