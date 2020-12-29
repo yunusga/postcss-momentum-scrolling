@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.2.12] 2020-12-29
+
+- Update dev dependencies
+- Bump node-notifier from 8.0.0 to 8.0.1 #26 fixes a security vulnerability
+
 ## [3.2.10] 2020-12-09
 
 - Update **postcss** to [postcss/releases/tag/8.2.1](https://github.com/postcss/postcss/releases/tag/8.2.1)
