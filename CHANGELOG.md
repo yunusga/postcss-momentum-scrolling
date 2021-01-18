@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## WIP 2021-01-19
+
+- Update **postcss** to [postcss/releases/tag/8.2.4](https://github.com/postcss/postcss/releases/tag/8.2.4)
+- Update dev dependencies
+
 ## [3.4.13] 2021-01-08
 
 - Update **postcss** to [postcss/releases/tag/8.2.3](https://github.com/postcss/postcss/releases/tag/8.2.3)
