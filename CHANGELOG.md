@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.11.20] 2021-05-04
+
+- Update **postcss** to [postcss/releases/tag/8.2.13](https://github.com/postcss/postcss/releases/tag/8.2.13)
+  - Fixed ReDoS vulnerabilities in source map parsing
+- Update dev dependencies
+
 ## [3.10.19] 2021-04-12
 
 - Update **postcss** to [postcss/releases/tag/8.2.10](https://github.com/postcss/postcss/releases/tag/8.2.10)
