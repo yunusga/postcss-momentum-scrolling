@@ -2,6 +2,13 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.12.21] 2021-05-18
+
+- Update **postcss** to [postcss/releases/tag/8.2.15](https://github.com/postcss/postcss/releases/tag/8.2.15)
+  - Fixed `list` type definitions
+- Update dev dependencies
+- Fixed dependencies vulnerabilities
+
 ## [3.11.20] 2021-05-04
 
 - Update **postcss** to [postcss/releases/tag/8.2.13](https://github.com/postcss/postcss/releases/tag/8.2.13)
