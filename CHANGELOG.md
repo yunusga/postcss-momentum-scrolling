@@ -2,6 +2,13 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.13.22] 2021-06-10
+
+- Update **postcss** to [postcss/releases/tag/8.3.1](https://github.com/postcss/postcss/releases/tag/8.3.1)
+  - Fixed false positives `PostCSS does nothing` warning on `syntax` option.
+- Update dev dependencies
+- Fixed dependencies vulnerabilities
+
 ## [3.12.21] 2021-05-18
 
 - Update **postcss** to [postcss/releases/tag/8.2.15](https://github.com/postcss/postcss/releases/tag/8.2.15)
