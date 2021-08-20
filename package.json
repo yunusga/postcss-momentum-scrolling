@@ -30,18 +30,18 @@
     "node": ">=10.0.0"
   },
   "peerDependencies": {
-    "postcss": "^8.3.1"
+    "postcss": "^8.3.6"
   },
   "devDependencies": {
-    "eslint": "^7.28.0",
+    "eslint": "^7.32.0",
     "eslint-ci": "^1.0.0",
-    "eslint-plugin-jest": "^24.3.6",
-    "husky": "^6.0.0",
-    "jest": "^27.0.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "jest-ci": "^0.1.1",
-    "jest-cli": "^27.0.4",
-    "lint-staged": "^11.0.0",
-    "postcss": "^8.3.1"
+    "jest-cli": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "postcss": "^8.3.6"
   },
   "husky": {
     "hooks": {

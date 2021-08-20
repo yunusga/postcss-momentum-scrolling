@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.14.22] 2021-08-20
+
+- Update **postcss** to [postcss/releases/tag/8.3.6](https://github.com/postcss/postcss/releases/tag/8.3.6)
+  - Fixed column in `missed semicolon` error (by @Gusted).
+- Update dev dependencies
+
 ## [3.13.22] 2021-06-10
 
 - Update **postcss** to [postcss/releases/tag/8.3.1](https://github.com/postcss/postcss/releases/tag/8.3.1)
