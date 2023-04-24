@@ -1,13 +1,11 @@
 # PostCSS Momentum Scrolling
 
 [PostCSS]:          https://github.com/postcss/postcss
-[ci-img]:           https://travis-ci.org/solversgroup/postcss-momentum-scrolling.svg
-[ci]:               https://travis-ci.org/solversgroup/postcss-momentum-scrolling
-[MIT]:              https://github.com/solversgroup/postcss-momentum-scrolling/blob/master/LICENSE
+[MIT]:              https://github.com/solversgroup/postcss-momentum-scrolling/LICENSE
 [official docs]:    https://github.com/postcss/postcss#usage
-[Releases history]: https://github.com/solversgroup/postcss-momentum-scrolling/blob/master/CHANGELOG.md
+[Releases history]: https://github.com/solversgroup/postcss-momentum-scrolling/CHANGELOG.md
 
-[![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling) [![Build Status][ci-img]][ci]
+[![npm](https://img.shields.io/npm/v/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)
 [![npm](https://img.shields.io/npm/dt/postcss-momentum-scrolling.svg)](https://www.npmjs.com/package/postcss-momentum-scrolling)
 
 [PostCSS] plugin for adding **momentum** style scrolling behavior (`-webkit-overflow-scrolling:touch`) for elements with overflow (scroll, auto) on iOS.
